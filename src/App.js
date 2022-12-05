@@ -12,6 +12,7 @@ const SEARCH_API =
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [search, setSearch] = useState([""]);
+  const [load, setLoad] = useState(false);
 
   const changeTheSearch = (event) => {
     setSearch(event.target.value);
@@ -112,4 +113,3 @@ const App = () => {
 };
 
 export default App;
-
