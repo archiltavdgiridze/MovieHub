@@ -52,10 +52,10 @@ const App = () => {
 
   return (
     <div className="return_div">
-      <div>  
-      <a href="https://netflix.com">
-        <h1>Your favorite movies are here! </h1>
-      </a>
+      <div>
+        <a href="https://archiltavdgiridze.github.io/movie-site/">
+          <h1>Your favorite movies are here! </h1>
+        </a>
       </div>
       <input
         type="search"
