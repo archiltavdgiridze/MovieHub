@@ -385,6 +385,7 @@ body {
 .return_div input {
   width: 80%;
   height: 50px;
+  color: var(--accentBg);
   background-color: var(--primaryBg);
   border: 1px solid #ccc;
   border-radius: 5px;
