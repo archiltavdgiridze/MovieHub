@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from './../Footer';
 
 const MostLiked = () => {
   return (
-    <div>MostLiked</div>
-  )
+    <div>
+      MostLiked
+      <Footer />
+    </div>
+  );
 }
 
 export default MostLiked

@@ -164,7 +164,6 @@ body {
 .sidebar_list h2 a {
   color: white;
   text-decoration: none;
-
 }
 
 
@@ -259,7 +258,6 @@ body {
   text-decoration: none;
 }
 
-
 .side-link:hover {
   color: var(--primaryWhite);
   background-color: var(--primaryBg);
@@ -272,10 +270,7 @@ body {
 }
 
 
-
-
 /* ~ Navbar */
-
 .navbar {
   margin-bottom: 70px;
 }
@@ -303,7 +298,6 @@ body {
   background-color: var(--primaryBg);
   list-style-type: none;
   overflow: hidden;
-
 }
 
 .navbar_list li {
@@ -316,7 +310,6 @@ body {
 
   font-family: var(--primaryFont);
   color: var(--secondaryWhite);
-
   font-size: 1rem;
   font-weight: 400;
 
@@ -371,6 +364,7 @@ body {
   flex-direction: column;
   right: 0;
   margin-top: 7%;
+  margin-bottom: 50px;
 }
 
 .return_div div a {
@@ -380,7 +374,6 @@ body {
 .all_movies_title {
   font-family: var(--primaryFont);
 }
-
 
 .return_div h1 {
   font-size: 2.5rem;
@@ -426,7 +419,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: px;
+  /* gap: px; */
 }
 
 .box {
@@ -473,12 +466,6 @@ body {
 .main_div {
   width: 100%;
   height: fit-content;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
-  /* right: 0; */
-  /* margin-top: 7%; */
 }
 
 /* ~ Main => watch today */
@@ -504,7 +491,6 @@ body {
 .watch_today_movies {
   width: 400px;
   height: auto;
-  /* border: 1px solid red; */
   background-color: var(--accentBg);
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
@@ -521,24 +507,7 @@ body {
   margin: 0 0 0 0;
 }
 
-/* .wt_wrapper h2 {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-
-  color: var(--accentBg);
-  font-size: 1.5rem;
-  padding: 3% 0 3% 3%;
-} */
-
-
-.mp_wt_box {
-  /* width: auto; */
-  /* height: auto; */
-  /* margin: 1%; */
-  /* background-color: var(--secondaryWhite); */
-  /* border-radius: 10px; */
-}
+.mp_wt_box {}
 
 .mp_wt_box_content {
   font-family: var(--primaryFont);
@@ -556,13 +525,6 @@ body {
 }
 
 /* ~ Main => most liked */
-/* .mp_ml_div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-
 .most_liked_wrapper {
   display: flex;
   justify-content: center;
@@ -585,7 +547,6 @@ body {
 .most_liked_movies {
   width: 300px;
   height: auto;
-  /* border: 1px solid red; */
   background-color: var(--accentBg);
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
@@ -617,7 +578,6 @@ body {
 }
 
 .mp_ml_box_content .title {
-  /* color: red; */
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -630,10 +590,7 @@ body {
   margin: 0 0 0 0;
 }
 
-.mp_ml_img_div {
-  /* width: 200px;
-  height: auto; */
-}
+.mp_ml_img_div {}
 
 .mp_ml_img_div img {
   width: 100%;
@@ -672,14 +629,13 @@ body {
   font-size: 2rem;
   font-family: var(--primaryFont);
   color: var(--accentBg);
-
   margin: 80px;
 
   width: 100%;
   height: 20%;
 }
 
-.contact__container__left__logo a{
+.contact__container__left__logo a {
   color: var(--accentBg);
   text-decoration: none;
 }
@@ -702,7 +658,6 @@ body {
   text-decoration: none;
 }
 
-
 .contact__container__right {
   display: flex;
   justify-content: center;
@@ -715,26 +670,19 @@ body {
 }
 
 .contact__container__right__text {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   text-align: center;
 
-  /* font-size: 1rem; */
   font-family: var(--primaryFont);
   color: var(--primaryWhite);
 
   width: 100%;
-  /* height: 20%; */
 }
 
 .contact__container__right__text h2 {
   margin-top: 60px;
 }
-
-/* .contact__container__right__text h2:nth-child(1) {
-  margin-top: 0;
-} */
 
 .contact__container__right__text h2 a {
   color: var(--accentBg);
@@ -742,4 +690,62 @@ body {
 
 .contact__container__right__text h2 a:nth-child(2) {
   text-decoration: none;
+}
+
+/* ~ Footer */
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 50px;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: var(--secondaryBg);
+}
+
+.footer__container__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--primaryFont);
+  color: var(--primaryWhite);
+  font-size: 1.2rem;
+}
+
+.footer__container__left__logo a {
+  color: var(--accentBg);
+  text-decoration: none;
+}
+
+.footer__container__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* font-family: var(--primaryFont);
+  color: var(--primaryWhite);
+  font-size: 0.8rem; */
+}
+
+.footer__container__right__contact a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--primaryWhite);
+  text-decoration: none;
+  margin: 0 30px 0 0;
+
+  font-family: var(--primaryFont);
+  font-size: 1rem;
+}
+
+.footer__container__right__text p {
+  color: var(--primaryWhite);
+  font-family: var(--primaryFont);
+  font-size: 0.8rem;
 }

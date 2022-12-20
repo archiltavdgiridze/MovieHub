@@ -6,6 +6,7 @@ import Result from "./mini/Result";
 import LoadAnim from "../LoadAnim";
 // import Sidebar from "./Sidebar";
 // import Navbar from "./Navbar";
+import Footer from "./../Footer";
 
 const API_URL =
   "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1";
@@ -83,6 +84,7 @@ const AllMovies = () => {
           <Result movies={movies} />
         )}
       </div>
+      <Footer />
     </>
   );
 };

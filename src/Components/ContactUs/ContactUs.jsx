@@ -25,13 +25,15 @@ const ContactUs = () => {
               Contact me at:
               <br />
               <a href="https://www.linkedin.com/in/archiltavdgiridze/">
-                achitavgiridze@moviehub.ge
+                achitavdgiridze@moviehub.ge
               </a>
             </h2>
             <h2>
               or on mobile:
               <br />
-              <a href="">+995 599-mov-ieh-ubb</a>
+              <a href="https://www.linkedin.com/in/archiltavdgiridze/">
+                +995 599-mov-ieh-ubb
+              </a>
             </h2>
           </div>
         </div>
