@@ -12,16 +12,10 @@ const App = () => {
   return (
     <Router>
       <div className="app_div">
-        {/* <div className="content"> */}
-
-        {/* <Route exact path="/sidebar"> */}
         <div className="sidebar_div">
           <Sidebar />
         </div>
-        {/* </Route> */}
-
         <div className="wrapper_landing">
-          {/* <Route exact path="/navbar"> */}
           <div className="navbar">
             <Navbar />
           </div>
@@ -41,7 +35,6 @@ const App = () => {
             </Route>
           </div>
         </div>
-        {/* </div> */}
       </div>
     </Router>
   );

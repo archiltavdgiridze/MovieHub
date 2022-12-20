@@ -29,28 +29,6 @@ const Sidebar = () => {
           </Link>
         </li>
       </ul>
-      {/* <div className="sidebar_btn">
-        <button>
-          <Link to="/" className="side-link">
-            Main Page
-          </Link>
-        </button>
-        <button>
-          <Link to="/most-liked" className="side-link">
-            Most Liked
-          </Link>
-        </button>
-        <button>
-          <Link to="/all-movies" className="side-link">
-            All Movies
-          </Link>
-        </button>
-        <button>
-          <Link to="/contact-us" className="side-link">
-            Contact us
-          </Link>
-        </button>
-      </div> */}
     </div>
   );
 };

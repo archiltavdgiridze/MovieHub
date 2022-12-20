@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (
-    // contact us page
-
     <div className="contact">
       <div className="contact__container">
         <div className="contact__container__left">

@@ -1,6 +1,5 @@
 import React from "react";
 import WTWrapper from "../../../ReComp/WTWrapper"
-import MLWrapper from "../../../ReComp/MLWrapper";
 
 const WatchToday = () => {
   return (
