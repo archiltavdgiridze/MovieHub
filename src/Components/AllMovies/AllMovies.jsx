@@ -2,8 +2,8 @@ import React from "react";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
-import Result from "./Result";
-import LoadAnim from "./LoadAnim";
+import Result from "./mini/Result";
+import LoadAnim from "../LoadAnim";
 // import Sidebar from "./Sidebar";
 // import Navbar from "./Navbar";
 
@@ -61,8 +61,8 @@ const AllMovies = () => {
   return (
     <>
       <div className="return_div">
-        <div>
-          <a href="#main_div">
+        <div className="all_movies_title">
+          <a href="">
             <h1>Your favorite movies are here! </h1>
           </a>
         </div>

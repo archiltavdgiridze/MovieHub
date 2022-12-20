@@ -1,38 +1,41 @@
-import React from 'react'
-
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
-
-  // function setActive(element) {
-  //   // remove the active class from all li elements
-  //   var liElements = document.querySelectorAll("li");
-  //   liElements.forEach(function (li) {
-  //     li.classList.remove("active");
-  //   });
-
-  //   // add the active class to the clicked li element
-  //   element.classList.add("active");
-  // }
-
-
   return (
-    // <div className='navbar'>
     <div className="sidebar_list">
       <h2>MovieHub</h2>
-      <ul>
-        <li className="active" onclick={"setActive(this)"}>
-          Main page
-        </li>
-        <li onclick={"setActive(this)"}>Most liked</li>
-        <li onclick={"setActive(this)"}>All Movies</li>
-        <li onclick={"setActive(this)"}>Contact us</li>
-      </ul>
+      <div className="sidebar_btn">
+        <button>
+          <Link to="/" className="side-link">
+            Main Page
+          </Link>
+        </button>
+        <button>
+          <Link to="/most-liked" className="side-link">
+            Most Liked
+          </Link>
+        </button>
+        <button>
+          <Link to="/all-movies" className="side-link">
+            All Movies
+          </Link>
+        </button>
+        <button>
+          <Link to="/contact-us" className="side-link">
+            Contact us
+          </Link>
+        </button>
+      </div>
+
+      {/* <ul>
+        <li>Main page</li>
+        <li>Most liked</li>
+        <li>All Movies</li>
+        <li>Contact us</li>
+      </ul> */}
     </div>
-    //</div>
   );
-}
+};
 
-
-
-
-export default Sidebar
+export default Sidebar;

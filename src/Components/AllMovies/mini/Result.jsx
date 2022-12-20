@@ -30,7 +30,7 @@ const Box = (props) => {
           <div className="title">{props.title}</div>
           {/* <div className="overview">{props.overview}</div> */}
           <div className="rating">{"IMDDB rating: " + props.rating}</div>
-          <div className="relDate">{"Release date: " + props.relDate}</div>
+          {/* <div className="relDate">{"Release date: " + props.relDate}</div> */}
         </div>
       </div>
     </div>
