@@ -1,5 +1,5 @@
 import React from "react";
-import WTWrapper from "../../../ReComp/WTWrapper"
+import WTWrapper from "../../../ReComp/WTWrapper";
 
 const WatchToday = () => {
   return (
@@ -8,11 +8,14 @@ const WatchToday = () => {
         <h1>Watch Today</h1>
       </div>
       <div className="watch_today_wrapper">
-        <WTWrapper />
-        <WTWrapper />
+        <div className="watch_today_poster">
+          <WTWrapper />
+        </div>
+        <div className="watch_today_poster">
+          <WTWrapper />
+        </div>
       </div>
     </div>
-
   );
 };
 
