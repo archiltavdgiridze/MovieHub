@@ -8,7 +8,7 @@ const ContactUs = () => {
         <div className="contact__container__left">
           <div className="contact__container__left__logo">
             <h1>
-              <Link to="/">MovieHub</Link>
+              <Link to="/MovieHub/">MovieHub</Link>
             </h1>
           </div>
           <div className="contact__container__left__text">

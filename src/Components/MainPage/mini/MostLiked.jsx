@@ -6,7 +6,7 @@ const MostLiked = () => {
   return (
     <div className="mp_ml_div">
       <div className="most_liked_text">
-        <Link to="/most-liked">
+        <Link to="/MovieHub/most-liked">
           <h1>Most Liked</h1>
         </Link>
       </div>

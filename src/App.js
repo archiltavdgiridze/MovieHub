@@ -6,7 +6,7 @@ import MainPage from "./Components/MainPage/MainPage";
 import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 import ContactUs from "./Components/ContactUs/ContactUs";
-import MostLiked from './Components/MostLiked/MostLiked';
+import MostLiked from "./Components/MostLiked/MostLiked";
 import MovieDetails from "./Components/Moviedetails";
 
 const App = () => {
@@ -22,16 +22,16 @@ const App = () => {
           </div>
           {/* </Route> */}
           <div className="pages">
-            <Route exact path="/">
+            <Route exact path="/MovieHub/">
               <MainPage />
             </Route>
-            <Route exact path="/most-liked">
+            <Route exact path="/MovieHub/most-liked">
               <MostLiked />
             </Route>
-            <Route exact path="/all-movies">
+            <Route exact path="/MovieHub/all-movies">
               <AllMovies />
             </Route>
-            <Route exact path="/contact-us">
+            <Route exact path="/MovieHub/contact-us">
               <ContactUs />
             </Route>
             <Route exact path="/movie/:id">

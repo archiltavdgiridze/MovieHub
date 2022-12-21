@@ -244,7 +244,8 @@ body {
 
 .side-link:hover {
   color: var(--primaryWhite);
-  background-color: var(--primaryBg);
+  background-color: var(--accentBg);
+  border: 1px solid var(--primaryBg);
   transition: 0.3s;
 }
 

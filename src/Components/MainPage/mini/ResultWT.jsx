@@ -29,9 +29,9 @@ const BoxWT = (props) => {
 
   return (
     <Link
-      to={{pathname: `/movie/${props.id}`}} 
+      to={{ pathname: `/movie/${props.id}` }}
       className="mp_wt_link"
-      >
+    >
       <div className="mp_wt_box">
         <div className="mp_wt_img_div">
           <img src={IMG_PATH + props.image} />

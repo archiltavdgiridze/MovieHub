@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="footer__container__left">
           <div className="footer__container__left__logo">
             <h1>
-              <Link to="/">MovieHub</Link>
+              <Link to="/MovieHub/">MovieHub</Link>
             </h1>
           </div>
         </div>
         <div className="footer__container__right">
           <div className="footer__container__right__contact">
-            <Link to="/contact-us">
+            <Link to="/MovieHub/contact-us">
               <p>Contact us</p>
             </Link>
           </div>
