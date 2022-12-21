@@ -4,6 +4,7 @@ export default function Result(props) {
   const boxes = props.movies.map((item, index) => {
     return (
       <Box 
+      // items that we choose from api
         key={index}
         image={item.poster_path}
         title={item.original_title}
@@ -18,13 +19,16 @@ export default function Result(props) {
 }
 
 const Box = (props) => {
+  // img path of api
   const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
   return (
     <div className="box">
+      {/* poster img */}
       <div className="img_div">
         <img src={IMG_PATH + props.image} />
       </div>
 
+      {/* info that comes with poster */}
       <div className="box_info">
         <div className="box_content">
           <div className="title">{props.title}</div>

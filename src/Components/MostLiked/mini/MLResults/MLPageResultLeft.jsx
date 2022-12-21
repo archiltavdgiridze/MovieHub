@@ -1,13 +1,12 @@
 import React from "react";
 
-export default function ResultWT(props) {
-  console.log(props.movies);
+export default function MLPageResultLeft(props) {
   const Boxes = () => {
     return (
-      <BoxWT
+      <BoxMLPLeft
         key={props.movies.index}
-        image={props.movies.poster_path}
         title={props.movies.original_title}
+        image={props.movies.poster_path}
         overview={props.movies.overview}
         rating={props.movies.vote_average}
         relDate={props.movies.release_date}
@@ -16,27 +15,29 @@ export default function ResultWT(props) {
   };
 
   return (
-    <div className="mp_wt_return_box">
+    <div className="ml_page_result_left">
       <Boxes />
     </div>
   );
 }
 
-const BoxWT = (props) => {
+const BoxMLPLeft = (props) => {
+  // img path of api
   const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
   return (
-    <div className="mp_wt_box">
-      <div className="mp_wt_img_div">
+    <div className="ml_page_box_left">
+      {/* poster img */}
+      <div className="ml_page_img_div_left">
         <img src={IMG_PATH + props.image} />
       </div>
 
-      
-      <div className="mp_wt_box_info">
-        <div className="mp_wt_box_content">
+      {/* info that comes with poster */}
+      <div className="ml_page_box_info_left">
+        <div className="ml_page_box_content_left">
           <div className="title">{props.title}</div>
-          {/* <div className="overview">{props.overview}</div> */}
           <div className="rating">{"IMDDB rating: " + props.rating}</div>
           <div className="relDate">{"Release date: " + props.relDate}</div>
+          <div className="overview">{props.overview}</div>
         </div>
       </div>
     </div>
