@@ -30,6 +30,7 @@ const WTWrapper = () => {
   }, []);
 
   return (
+    
     <div className="wt_wrapper">
       <div className="watch_today_movies">
         {loading ? (
