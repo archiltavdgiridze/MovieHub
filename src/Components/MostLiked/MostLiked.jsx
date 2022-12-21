@@ -7,8 +7,6 @@ import MLPageWrapperLeft from "./mini/MLWrappers/MLPageWrapperLeft";
 const MostLiked = () => {
   return (
     <div className="most_liked">
-      {/* most liked page */}
-      {/* right side */}
       <div className="ml_page_wrapper">
         <div className="ml_main_title">
           <h1>Most Liked</h1>

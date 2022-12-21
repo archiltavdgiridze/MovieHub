@@ -545,6 +545,11 @@ body {
   margin: 0 0 3% 0;
 }
 
+.most_liked_text a{
+  text-decoration: none;
+  color: var(--accentBg);
+}
+
 .most_liked_movies {
   width: 300px;
   height: auto;
