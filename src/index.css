@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 :root {
   --hue: 223;
   --bg: hsl(var(--hue), 10%, 90%);
@@ -638,7 +641,7 @@ body {
 }
 
 .mp_ml_box {
-  width:auto;
+  width: auto;
   height: 590px;
   /* background-color: var(--accentBg); */
   /* margin: 150px 0 0 0 ; */
