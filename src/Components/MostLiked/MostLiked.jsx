@@ -1,3 +1,5 @@
+// This is the main component for the Most Liked page. It contains the main title and the wrappers for the posters. The wrappers are imported from the mini folder.
+
 import React from "react";
 import Footer from "./../Footer";
 import MLPageWrapperRight from "./mini/MLWrappers/MLPageWrapperRight";

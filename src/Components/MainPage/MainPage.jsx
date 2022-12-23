@@ -1,3 +1,5 @@
+// This is the main page of the website which is the first page that the user will see when he opens the website and it contains the most liked movies and the movies that are watched today
+
 import React from "react";
 
 import WatchToday from "./mini/WatchToday";

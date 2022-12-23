@@ -1,3 +1,6 @@
+// this file's description:
+// this file is about the seat booking page of the website
+
 import React from 'react';
 import { useState } from 'react';
 import clsx from 'clsx';

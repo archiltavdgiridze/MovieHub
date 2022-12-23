@@ -1,3 +1,4 @@
+// this file is about the sidebar of the website which is the navigation bar
 import React from "react";
 import { Link } from "react-router-dom";
 

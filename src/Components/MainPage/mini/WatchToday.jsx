@@ -1,3 +1,5 @@
+// this is the component that will be used to display the watch today section of the main page and it will be used in the main page component 
+
 import React from "react";
 import WTWrapper from "../../../ReComp/WTWrapper";
 

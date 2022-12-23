@@ -1,9 +1,12 @@
+// This component is used to display the results of the search in the AllMovies page of the website 
+
 import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Result(props) {
   const boxes = props.movies.map((item, index) => {
     return (
+      // this is the Box component and it will be used to display the movies in the AllMovies page of the website 
       <Box
         // items that we choose from api
         id={item.id}
@@ -40,9 +43,9 @@ const Box = (props) => {
         <div className="box_info">
           <div className="box_content">
             <div className="title">{props.title}</div>
-            {/* <div className="overview">{props.overview}</div> */}
             <div className="rating">{"IMDDB rating: " + props.rating}</div>
             {/* <div className="relDate">{"Release date: " + props.relDate}</div> */}
+            {/* <div className="overview">{props.overview}</div> */}
           </div>
         </div>
       </div>

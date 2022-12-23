@@ -1,3 +1,5 @@
+// This component is used to display the most liked movies on the main page of the website
+
 import React from 'react'
 import { Link } from 'react-router-dom';
 import MLWrapper from './../../../ReComp/MLWrapper';

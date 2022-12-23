@@ -1,8 +1,11 @@
+// This component is used to display the right side of the ML page and it is imported in the MostLiked.jsx component
+
 import React from "react";
 
 export default function MLPageResultRight(props) {
   const Boxes = () => {
     return (
+      // this is the component that will be used to display the watch today section of the main page and it will be used in the main page component
       <BoxMLPRight
         key={props.movies.index}
         title={props.movies.original_title}
@@ -16,6 +19,7 @@ export default function MLPageResultRight(props) {
 
   return (
     <div className="ml_page_result_right">
+      
       <Boxes />
     </div>
   );

@@ -1,3 +1,5 @@
+// this is the wrapper for the watch today component and it will be used in the watch today component and it shows 1 movie from API
+
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -13,6 +15,7 @@ const WTWrapper = () => {
   const [loading, setLoading] = useState(true);
 
   const getData = () => {
+    // this const is used to get the data from the API and it will be used in the useEffect
     fetch(
       "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=1&#39"
     )
@@ -26,6 +29,7 @@ const WTWrapper = () => {
   };
 
   useEffect(() => {
+    // this function will get the data from the API and it will be used in the useEffect
     getData();
   }, []);
 
@@ -42,6 +46,7 @@ const WTWrapper = () => {
           </>
         ) : (
           <ResultWT
+          // this is the component that will be used to display the movie poster and the movie name and it will be used in the watch today component
             movies={data[Math.floor(Math.random() * (19 - 0 + 1)) + 0]}
           />
         )}
